@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Main2Activity"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+android:id="@+id/lenlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/person"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sign1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:text="Donate Blood Save Lives\nStart Today"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="5dp"
+
+        android:src="@drawable/d"
+        android:layout_above="@+id/sign"
+        android:id="@+id/person"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/sign"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Sign In to Get Started"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <ProgressBar
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/indefinite"
+            android:visibility="gone"
+            /></LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:id="@+id/buttonLayout"
+       android:padding="25dp"
+       android:background="@android:color/transparent"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="25dp"
+       >
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/loginBtn"
+           android:textColor="#FFFFFF"
+            android:background="@drawable/button_border"
+           android:text="@string/signin_signup"
+           android:layout_marginTop="5dp"/>
+
+   </LinearLayout>
+
+</RelativeLayout>

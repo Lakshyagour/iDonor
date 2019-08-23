@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">i Donor</string>
+    <string name="facebook_application_id">1252778151570593</string>
+    <string name="fb_login_protocol_scheme">fb1252778151570593</string>
+    <string name="signin_signup">LogIn / SignUp</string>
+    <string name="title_activity_main4">i Donor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">i Donor</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Normal Mode</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">My Location</string>
+    <string name="menu_slideshow">About Developer</string>
+    <string name="menu_tools">Donor Map</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">About Us</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact">Contact</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

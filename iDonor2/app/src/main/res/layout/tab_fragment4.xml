@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".tabFragment4">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/viewprofilePhoto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_border"
+        android:src="@drawable/ic_person_black_242dp"
+
+        />
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewprofilePhoto"
+        android:id="@+id/tabularLayout"
+        android:layout_marginTop="15dp">
+        <TableRow>
+            <TextView
+                android:padding="10dp"
+                android:layout_width
+                    ="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="5"
+                android:textSize="17dp"
+
+                android:id="@+id/viewuserName"
+
+
+
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email-Id"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/viewemailId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:textSize="17dp"
+
+
+                android:inputType="textEmailAddress" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/viewmobileNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:textSize="17dp"
+
+
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Group"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/viewbloodGroup"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/viewgender"/>
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/editProfile"
+       android:textStyle="bold"
+       android:textSize="18dp"
+       android:layout_marginTop="15dp"
+       android:text="Edit Profile"
+       android:textColor="#FFFFFF"
+       android:background="@drawable/button_border"
+       android:layout_below="@+id/tabularLayout"
+
+       />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/progress4"
+
+        />
+
+
+
+
+</RelativeLayout>

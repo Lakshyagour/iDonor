@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E71C23</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#E71C23</color>
+    <color name="dotColor">#FFFFFF</color>
+    <color name="gradstart">#ff0000</color>
+<color name="gradend">#ff4d4d</color>
+</resources>

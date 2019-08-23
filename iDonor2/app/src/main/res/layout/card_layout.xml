@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cardLogo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@mipmap/ic_launcher" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameofUser"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_height="wrap_content">
+               <Button
+                   android:layout_width="80dp"
+                   android:layout_height="wrap_content"
+                   android:background="@android:color/transparent"
+                   android:drawableLeft="@drawable/ic_email_black_24dp"
+                   android:text="Email"
+                   android:textSize="12dp"
+                   android:id="@+id/emailtouser"/>
+               <Button
+                   android:layout_width="80dp"
+                   android:layout_height="wrap_content"
+                   android:background="@android:color/transparent"
+                   android:drawableLeft="@drawable/ic_phone_black_24dp"
+                   android:text="Call"
+                   android:textSize="12dp"
+                   android:id="@+id/phonetouser"
+                   />
+               <Button
+                   android:layout_width="80dp"
+                   android:layout_height="wrap_content"
+                   android:background="@android:color/transparent"
+                   android:drawableLeft="@drawable/ic_forum_black_24dp"
+                   android:text="Message"
+                   android:textSize="12dp"
+                   android:id="@+id/messagetouser"/>
+           </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
